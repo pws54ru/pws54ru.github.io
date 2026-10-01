@@ -27,9 +27,7 @@
         }
 
 
-        /* =========================
-           NAVIGATION
-        ========================= */
+        /* NAVIGATION */
 
         nav {
             background-color: white;
@@ -66,9 +64,7 @@
         }
 
 
-        /* =========================
-           HERO / ABOUT
-        ========================= */
+        /* HERO / ABOUT */
 
         .hero {
             background-color: #f4f6f8;
@@ -85,7 +81,7 @@
         }
 
 
-        /* PROFILE SIDE */
+        /* PROFILE */
 
         .profile-section {
             min-width: 250px;
@@ -100,7 +96,6 @@
             object-position: center 23%;
 
             border-radius: 50%;
-
             border: 5px solid white;
 
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
@@ -160,7 +155,7 @@
         }
 
 
-        /* HERO BUTTONS */
+        /* BUTTONS */
 
         .hero-buttons {
             display: flex;
@@ -194,7 +189,6 @@
         .secondary-button {
             background-color: white;
             color: #222;
-
             border: 1px solid #ccc;
         }
 
@@ -203,9 +197,7 @@
         }
 
 
-        /* =========================
-           GENERAL SECTIONS
-        ========================= */
+        /* GENERAL SECTIONS */
 
         section {
             padding: 75px 10%;
@@ -228,9 +220,7 @@
         }
 
 
-        /* =========================
-           SKILLS
-        ========================= */
+        /* SKILLS */
 
         .skills-section {
             background-color: white;
@@ -244,7 +234,6 @@
 
         .skill {
             background-color: #f4f6f8;
-
             border: 1px solid #dddddd;
 
             padding: 14px 20px;
@@ -262,9 +251,7 @@
         }
 
 
-        /* =========================
-           PROJECTS
-        ========================= */
+        /* PROJECTS */
 
         .projects-section {
             background-color: #f4f6f8;
@@ -274,7 +261,7 @@
             display: grid;
 
             grid-template-columns:
-                repeat(auto-fit, minmax(320px, 1fr));
+                repeat(auto-fit, minmax(300px, 1fr));
 
             gap: 25px;
         }
@@ -285,7 +272,6 @@
             padding: 30px;
 
             border-radius: 10px;
-
             border: 1px solid #dddddd;
 
             display: flex;
@@ -334,9 +320,7 @@
         }
 
 
-        /* =========================
-           FOOTER
-        ========================= */
+        /* FOOTER */
 
         footer {
             background-color: #202124;
@@ -352,9 +336,7 @@
         }
 
 
-        /* =========================
-           MOBILE
-        ========================= */
+        /* MOBILE */
 
         @media (max-width: 800px) {
 
@@ -373,9 +355,7 @@
 
             .hero-container {
                 flex-direction: column;
-
                 text-align: center;
-
                 gap: 35px;
             }
 
@@ -399,15 +379,14 @@
         }
 
     </style>
+
 </head>
 
 
 <body>
 
 
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
+    <!-- NAVIGATION -->
 
     <nav>
 
@@ -425,9 +404,7 @@
 
 
 
-    <!-- =========================
-         ABOUT / PERSONAL STATEMENT
-    ========================== -->
+    <!-- ABOUT / PERSONAL STATEMENT -->
 
     <section class="hero" id="about">
 
@@ -482,8 +459,6 @@
                 </p>
 
 
-                <!-- LINKS -->
-
                 <div class="hero-buttons">
 
                     <a
@@ -512,9 +487,7 @@
 
 
 
-    <!-- =========================
-         SKILLS
-    ========================== -->
+    <!-- SKILLS -->
 
     <section class="skills-section" id="skills">
 
@@ -564,9 +537,7 @@
 
 
 
-    <!-- =========================
-         PROJECTS
-    ========================== -->
+    <!-- PROJECTS -->
 
     <section class="projects-section" id="projects">
 
@@ -578,14 +549,49 @@
 
             <p class="section-description">
                 Selected work demonstrating my experience with
-                financial tools, quantitative analysis, and economics.
+                financial tools, quantitative analysis, economics,
+                and research.
             </p>
 
 
             <div class="project-grid">
 
 
-                <!-- NFL PROJECT -->
+                <!-- AI RESEARCH PROJECT -->
+
+                <div class="project-card">
+
+                    <div class="project-date">
+                        April 2025
+                    </div>
+
+                    <h3>
+                        AI Integration in the Workplace Research
+                    </h3>
+
+                    <p>
+                        Conducted an in-depth research project examining
+                        the ethical implications of artificial intelligence
+                        integration into the workplace. Analyzed issues
+                        including job displacement, employee concerns,
+                        privacy and security, ethical AI development,
+                        and government frameworks surrounding emerging
+                        technology.
+                    </p>
+
+                    <a
+                        href="AI Integration Workplace Research.pdf"
+                        target="_blank"
+                        class="project-link"
+                    >
+                        View Research Project →
+                    </a>
+
+                </div>
+
+
+
+                <!-- NFL RESEARCH PROJECT -->
 
                 <div class="project-card">
 
@@ -656,9 +662,7 @@
 
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+    <!-- FOOTER -->
 
     <footer>
 
